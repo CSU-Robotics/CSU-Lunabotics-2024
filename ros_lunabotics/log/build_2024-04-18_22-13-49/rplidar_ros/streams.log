@@ -1,0 +1,316 @@
+[1.921s] Invoking command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/lunabotics/ros_lunabotics/install/rplidar_ros
+[2.491s] -- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[3.248s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.351s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.977s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.999s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.048s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.620s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.633s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.701s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.510s] -- Configuring done
+[7.654s] -- Generating done
+[7.665s] -- Build files have been written to: /home/lunabotics/ros_lunabotics/build/rplidar_ros
+[7.705s] Invoked command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/lunabotics/ros_lunabotics/install/rplidar_ros
+[7.714s] Invoking command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lunabotics/ros_lunabotics/build/rplidar_ros -- -j4 -l4
+[7.901s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition_node[0m
+[8.092s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[8.097s] [ 22%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[8.112s] [ 33%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[8.121s] [ 44%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[11.279s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[11.280s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[11.281s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[11.282s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.282s]    59 |     _u8 data[[01;35m[K0[m[K];
+[11.283s]       |              [01;35m[K^[m[K
+[11.284s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[11.285s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[11.285s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[11.286s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.287s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[11.288s]       |                  [01;35m[K^[m[K
+[11.337s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[11.338s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.339s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[11.340s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[11.353s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[11.354s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/sdkcommon.h:40[m[K,
+[11.355s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[11.356s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[11.357s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.358s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[11.359s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[11.366s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[11.368s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[11.370s]    50 | #define M_PI 3.1415926535897932384626433832795
+[11.371s]       | 
+[11.374s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[11.375s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[11.379s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[11.379s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[11.380s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[11.381s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[11.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.389s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[11.389s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[11.401s] [01m[K/usr/include/math.h:1151:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[11.407s]  1151 | # define M_PI           3.14159265358979323846  /* pi */
+[11.408s]       | 
+[11.722s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o[0m
+[12.055s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[12.056s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.058s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[12.059s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[12.061s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[12.062s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.063s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[12.064s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[12.064s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[12.065s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.066s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[12.067s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[12.068s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[12.068s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.069s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[12.082s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[12.327s] [ 66%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[14.105s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[14.106s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[14.108s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[14.109s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.110s]    59 |     _u8 data[[01;35m[K0[m[K];
+[14.111s]       |              [01;35m[K^[m[K
+[14.114s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[14.115s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/sdkcommon.h:48[m[K,
+[14.116s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[14.118s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.119s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[14.121s]       |                  [01;35m[K^[m[K
+[14.122s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[14.124s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[14.125s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[14.126s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[14.127s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.129s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[14.129s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.131s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[14.132s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[14.830s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[14.831s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[14.832s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[14.833s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.834s]    59 |     _u8 data[[01;35m[K0[m[K];
+[14.835s]       |              [01;35m[K^[m[K
+[14.836s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[14.836s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/sdkcommon.h:48[m[K,
+[14.837s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:35[m[K:
+[14.838s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.838s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[14.839s]       |                  [01;35m[K^[m[K
+[15.438s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)[m[K’:
+[15.438s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.439s]   121 | u_result RPlidarDriverImplCommon::reset([01;35m[K_u32 timeout[m[K)
+[15.439s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[15.444s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)[m[K’:
+[15.444s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:275:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.445s]   275 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, [01;35m[K_u32 timeout[m[K)
+[15.445s]       |                                                                      [01;35m[K~~~~~^~~~~~~[m[K
+[15.458s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual int rp::standalone::rplidar::RPlidarDriverImplCommon::_getSyncBitByAngle(int, int)[m[K’:
+[15.459s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:671:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klast_angleInc_q16[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[15.460s]   671 |     static int [01;35m[Klast_angleInc_q16[m[K = 0;
+[15.460s]       |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[15.461s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:673:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsyncBit_check_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.461s]   673 |     int [01;35m[KsyncBit_check_threshold[m[K = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree
+[15.462s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.465s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::_cacheUltraCapsuledScanData()[m[K’:
+[15.465s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:771:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_scan_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.466s]   771 |     size_t                                   [01;35m[Klast_scan_count[m[K = 0;
+[15.467s]       |                                              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[15.469s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[15.469s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:850:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsyncBit_check_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.470s]   850 |             int [01;35m[KsyncBit_check_threshold[m[K = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree
+[15.471s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.471s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[15.472s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:903:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[15.472s]   903 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[15.473s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.477s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)[m[K’:
+[15.478s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1027:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[15.478s]  1027 |     _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[15.479s]       |                     [01;35m[K~~^~~~~[m[K
+[15.484s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[15.485s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1238:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.486s]  1238 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[15.487s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[15.487s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1246:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.488s]  1246 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[15.489s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[15.489s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1256:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsyncBit_check_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[15.490s]  1256 |                 int [01;35m[KsyncBit_check_threshold[m[K = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree
+[15.491s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.514s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[15.514s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1484:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.515s]  1484 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, [01;35m[K_u32 timeoutInMs[m[K)
+[15.516s]       |                                                                                                    [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[15.518s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[15.519s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1581:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.519s]  1581 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, [01;35m[K_u32 options[m[K, RplidarScanMode* outUsedScanMode)
+[15.520s]       |                                                                              [01;35m[K~~~~~^~~~~~~[m[K
+[15.525s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)[m[K’:
+[15.526s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1805:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.527s]  1805 | u_result RPlidarDriverImplCommon::stop([01;35m[K_u32 timeout[m[K)
+[15.527s]       |                                        [01;35m[K~~~~~^~~~~~~[m[K
+[15.541s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)[m[K’:
+[15.542s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:2193:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.542s]  2193 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, [01;35m[K_u32 timeout[m[K)
+[15.543s]       |                                                               [01;35m[K~~~~~^~~~~~~[m[K
+[15.546s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)[m[K’:
+[15.546s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:2270:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.547s]  2270 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, [01;35m[K_u32 flag[m[K)
+[15.547s]       |                                                                              [01;35m[K~~~~~^~~~[m[K
+[15.549s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)[m[K’:
+[15.550s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:2312:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.550s]  2312 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, [01;35m[K_u32 flag[m[K)
+[15.551s]       |                                                                   [01;35m[K~~~~~^~~~[m[K
+[15.663s] /home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[15.663s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:2025:64:[m[K   required from here
+[15.664s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[15.664s]  1991 |     for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[15.665s]       |                         [01;35m[K~~^~~~[m[K
+[15.666s] /home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int][m[K’:
+[15.667s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:2030:67:[m[K   required from here
+[15.667s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[15.940s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor()[m[K’:
+[15.940s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/sdk/src/rplidar_driver.cpp:2225:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[15.941s]  2225 | [01;35m[K}[m[K
+[15.941s]       | [01;35m[K^[m[K
+[21.053s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[21.053s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[21.054s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[21.054s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.055s]    59 |     _u8 data[[01;35m[K0[m[K];
+[21.055s]       |              [01;35m[K^[m[K
+[21.056s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[21.056s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[21.056s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[21.057s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.057s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[21.057s]       |                  [01;35m[K^[m[K
+[21.304s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[21.305s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:248:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.305s]   248 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[21.306s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.306s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:248:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.307s]   248 | void rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[21.307s]       |                                                       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[21.308s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[21.308s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:259:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.308s]   259 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[21.309s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[21.309s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:259:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.309s]   259 | void rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[21.310s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[21.329s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::publish_loop()[m[K’:
+[21.330s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:362:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[21.330s]   362 |           for (j = 0; [01;35m[Kj < m_angle_compensate_multiple[m[K; j++) {
+[21.331s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.331s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:383:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[21.332s]   383 |       for (size_t x = start_node, y = 0; [01;35m[Kx < end_node[m[K; ++x, ++y) {
+[21.333s]       |                                          [01;35m[K~~^~~~~~~~~~[m[K
+[21.333s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:390:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[21.333s]   390 |     float [01;35m[Kangle_min[m[K = deg_2_rad(0.0f);
+[21.334s]       |           [01;35m[K^~~~~~~~~[m[K
+[21.334s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/rplidar_node.cpp:391:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[21.335s]   391 |     float [01;35m[Kangle_max[m[K = deg_2_rad(359.0f);
+[21.335s]       |           [01;35m[K^~~~~~~~~[m[K
+[33.471s] [ 77%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[35.170s] [ 77%] Built target rplidar_composition_node
+[35.220s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[35.308s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[36.986s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[36.987s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[36.987s]    50 | #define M_PI 3.1415926535897932384626433832795
+[36.987s]       | 
+[36.988s] In file included from [01m[K/usr/include/c++/11/cmath:45[m[K,
+[36.988s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[36.988s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[36.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[36.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[36.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[36.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[36.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[36.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[36.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[36.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[36.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[36.992s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[36.992s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[36.992s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[36.993s] [01m[K/usr/include/math.h:1151:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[36.993s]  1151 | # define M_PI           3.14159265358979323846  /* pi */
+[36.993s]       | 
+[45.199s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[45.199s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[45.200s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[45.200s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[45.201s]    59 |     _u8 data[[01;35m[K0[m[K];
+[45.201s]       |              [01;35m[K^[m[K
+[45.201s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[45.202s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[45.202s]                  from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[45.203s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[45.203s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[45.203s]       |                  [01;35m[K^[m[K
+[46.808s] In file included from [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[46.809s] [01m[K/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp:76:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[46.810s]    76 | static float [01;35m[KgetAngle[m[K(const rplidar_response_measurement_node_hq_t & node)
+[46.811s]       |              [01;35m[K^~~~~~~~[m[K
+[47.277s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[48.251s] [100%] Built target rplidar_composition
+[48.291s] Invoked command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lunabotics/ros_lunabotics/build/rplidar_ros -- -j4 -l4
+[48.524s] Invoking command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lunabotics/ros_lunabotics/build/rplidar_ros
+[48.552s] -- Install configuration: ""
+[48.553s] -- Execute custom install script
+[48.556s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[48.561s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[48.562s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[48.564s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[48.567s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[48.570s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[48.571s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[48.573s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[48.574s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[48.576s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[48.580s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[48.583s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/librplidar_composition_node.so
+[48.586s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/include/rplidar_node.hpp
+[48.587s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/include/visibility.h
+[48.589s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[48.592s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[48.594s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[48.597s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[48.598s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[48.600s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[48.602s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[48.603s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[48.605s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[48.607s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[48.608s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[48.609s] -- Symlinking: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.dsv
+[48.646s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[48.648s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[48.650s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.652s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.653s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[48.655s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[48.657s] -- Up-to-date symlink: /home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.xml
+[48.664s] Invoked command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lunabotics/ros_lunabotics/build/rplidar_ros

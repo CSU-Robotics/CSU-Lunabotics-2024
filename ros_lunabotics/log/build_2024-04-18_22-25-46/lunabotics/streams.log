@@ -1,0 +1,22 @@
+[4.383s] Invoking command in '/home/lunabotics/ros_lunabotics/src/lunabotics': PYTHONPATH=/home/lunabotics/ros_lunabotics/build/lunabotics/prefix_override:/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lunabotics build --build-base /home/lunabotics/ros_lunabotics/build/lunabotics/build install --record /home/lunabotics/ros_lunabotics/build/lunabotics/install.log --single-version-externally-managed
+[5.676s] running egg_info
+[5.679s] writing ../../build/lunabotics/lunabotics.egg-info/PKG-INFO
+[5.680s] writing dependency_links to ../../build/lunabotics/lunabotics.egg-info/dependency_links.txt
+[5.681s] writing entry points to ../../build/lunabotics/lunabotics.egg-info/entry_points.txt
+[5.682s] writing requirements to ../../build/lunabotics/lunabotics.egg-info/requires.txt
+[5.683s] writing top-level names to ../../build/lunabotics/lunabotics.egg-info/top_level.txt
+[5.691s] reading manifest file '../../build/lunabotics/lunabotics.egg-info/SOURCES.txt'
+[5.695s] writing manifest file '../../build/lunabotics/lunabotics.egg-info/SOURCES.txt'
+[5.696s] running build
+[5.696s] running build_py
+[5.697s] running install
+[5.699s] running install_lib
+[5.704s] running install_data
+[5.707s] copying package.xml -> /home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics
+[5.707s] running install_egg_info
+[5.714s] removing '/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages/lunabotics-0.0.0-py3.10.egg-info' (and everything under it)
+[5.716s] Copying ../../build/lunabotics/lunabotics.egg-info to /home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages/lunabotics-0.0.0-py3.10.egg-info
+[5.721s] running install_scripts
+[5.798s] Installing listener script to /home/lunabotics/ros_lunabotics/install/lunabotics/lib/lunabotics
+[5.800s] writing list of installed files to '/home/lunabotics/ros_lunabotics/build/lunabotics/install.log'
+[5.935s] Invoked command in '/home/lunabotics/ros_lunabotics/src/lunabotics' returned '0': PYTHONPATH=/home/lunabotics/ros_lunabotics/build/lunabotics/prefix_override:/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lunabotics build --build-base /home/lunabotics/ros_lunabotics/build/lunabotics/build install --record /home/lunabotics/ros_lunabotics/build/lunabotics/install.log --single-version-externally-managed

@@ -1,0 +1,212 @@
+[5.402s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.402s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff877e4c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87c33fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87c33fd0>>)
+[5.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.634s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lunabotics/ros_lunabotics'
+[5.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.685s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.686s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.686s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.687s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.687s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.687s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ignore', 'ignore_ament_install']
+[5.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore'
+[5.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore_ament_install'
+[5.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_pkg']
+[5.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_pkg'
+[5.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_meta']
+[5.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_meta'
+[5.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ros']
+[5.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ros'
+[5.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['cmake', 'python']
+[5.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'cmake'
+[5.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python'
+[5.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['python_setup_py']
+[5.693s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python_setup_py'
+[5.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[5.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extension 'ignore'
+[5.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extension 'ignore_ament_install'
+[5.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extensions ['colcon_pkg']
+[5.694s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extension 'colcon_pkg'
+[5.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extensions ['colcon_meta']
+[5.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extension 'colcon_meta'
+[5.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extensions ['ros']
+[5.695s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/rplidar_ros2) by extension 'ros'
+[5.704s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extensions ['ignore', 'ignore_ament_install']
+[5.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extension 'ignore'
+[5.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extension 'ignore_ament_install'
+[5.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extensions ['colcon_pkg']
+[5.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extension 'colcon_pkg'
+[5.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extensions ['colcon_meta']
+[5.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extension 'colcon_meta'
+[5.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extensions ['ros']
+[5.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/lunabotics) by extension 'ros'
+[5.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lunabotics' with type 'ros.ament_python' and name 'lunabotics'
+[5.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.336s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[6.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.801s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'cmake_args' from command line to 'None'
+[6.801s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'cmake_target' from command line to 'None'
+[6.801s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.801s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'cmake_clean_cache' from command line to 'False'
+[6.802s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'cmake_clean_first' from command line to 'False'
+[6.802s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'cmake_force_configure' from command line to 'False'
+[6.802s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'ament_cmake_args' from command line to 'None'
+[6.802s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'catkin_cmake_args' from command line to 'None'
+[6.802s] Level 5:colcon.colcon_core.verb:set package 'lunabotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.802s] DEBUG:colcon.colcon_core.verb:Building package 'lunabotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/ros_lunabotics/build/lunabotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/ros_lunabotics/install/lunabotics', 'merge_install': False, 'path': '/home/lunabotics/ros_lunabotics/src/lunabotics', 'symlink_install': False, 'test_result_base': None}
+[6.880s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[6.880s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[6.880s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.881s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[6.881s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[6.881s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[6.881s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[6.881s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[6.881s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.881s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunabotics/ros_lunabotics/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunabotics/ros_lunabotics/install/rplidar_ros', 'merge_install': False, 'path': '/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[6.958s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.038s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.039s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lunabotics/ros_lunabotics/src/lunabotics' with build type 'ament_python'
+[7.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('lunabotics', 'ament_prefix_path')
+[7.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/hook/ament_prefix_path.ps1'
+[7.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/hook/ament_prefix_path.dsv'
+[7.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/hook/ament_prefix_path.sh'
+[7.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.386s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2' with build type 'ament_cmake'
+[7.386s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2'
+[7.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.042s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lunabotics/ros_lunabotics/src/lunabotics'
+[9.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.127s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lunabotics/ros_lunabotics/build/rplidar_ros -- -j4 -l4
+[9.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lunabotics/ros_lunabotics/build/rplidar_ros -- -j4 -l4
+[9.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lunabotics/ros_lunabotics/build/rplidar_ros
+[10.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[10.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/ros_lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lunabotics/ros_lunabotics/build/rplidar_ros
+[10.167s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros' for CMake module files
+[10.170s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros' for CMake config files
+[10.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[10.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[10.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[10.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[10.269s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/lib'
+[10.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[10.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[10.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[10.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[10.368s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/bin'
+[10.369s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[10.370s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/python3.10/site-packages'
+[10.371s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/bin'
+[10.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[10.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[10.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.sh'
+[10.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.bash'
+[10.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[10.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[10.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[10.872s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros' for CMake module files
+[10.876s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros' for CMake config files
+[10.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[10.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[10.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[10.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[10.995s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/lib'
+[10.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[11.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[11.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[11.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[11.107s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/bin'
+[11.108s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[11.109s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/lib/python3.10/site-packages'
+[11.110s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/rplidar_ros/bin'
+[11.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[11.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[11.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.sh'
+[11.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.bash'
+[11.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[11.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/ros_lunabotics/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[11.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunabotics/ros_lunabotics/src/lunabotics': PYTHONPATH=/home/lunabotics/ros_lunabotics/build/lunabotics/prefix_override:/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lunabotics build --build-base /home/lunabotics/ros_lunabotics/build/lunabotics/build install --record /home/lunabotics/ros_lunabotics/build/lunabotics/install.log --single-version-externally-managed
+[12.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunabotics/ros_lunabotics/src/lunabotics' returned '0': PYTHONPATH=/home/lunabotics/ros_lunabotics/build/lunabotics/prefix_override:/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lunabotics build --build-base /home/lunabotics/ros_lunabotics/build/lunabotics/build install --record /home/lunabotics/ros_lunabotics/build/lunabotics/install.log --single-version-externally-managed
+[13.058s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics' for CMake module files
+[13.060s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics' for CMake config files
+[13.064s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics/lib'
+[13.064s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics/bin'
+[13.064s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics/lib/pkgconfig/lunabotics.pc'
+[13.065s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages'
+[13.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('lunabotics', 'pythonpath')
+[13.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/hook/pythonpath.ps1'
+[13.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/hook/pythonpath.dsv'
+[13.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/hook/pythonpath.sh'
+[13.151s] Level 1:colcon.colcon_core.environment:checking '/home/lunabotics/ros_lunabotics/install/lunabotics/bin'
+[13.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lunabotics)
+[13.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/package.ps1'
+[13.233s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/package.dsv'
+[13.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/package.sh'
+[13.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/package.bash'
+[13.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunabotics/ros_lunabotics/install/lunabotics/share/lunabotics/package.zsh'
+[13.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunabotics/ros_lunabotics/install/lunabotics/share/colcon-core/packages/lunabotics)
+[13.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.244s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.345s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.400s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/ros_lunabotics/install/local_setup.ps1'
+[13.493s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunabotics/ros_lunabotics/install/_local_setup_util_ps1.py'
+[13.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/ros_lunabotics/install/setup.ps1'
+[13.582s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/ros_lunabotics/install/local_setup.sh'
+[13.585s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunabotics/ros_lunabotics/install/_local_setup_util_sh.py'
+[13.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/ros_lunabotics/install/setup.sh'
+[13.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/ros_lunabotics/install/local_setup.bash'
+[13.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/ros_lunabotics/install/setup.bash'
+[13.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunabotics/ros_lunabotics/install/local_setup.zsh'
+[13.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunabotics/ros_lunabotics/install/setup.zsh'

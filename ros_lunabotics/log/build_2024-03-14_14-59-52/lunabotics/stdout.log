@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing lunabotics.egg-info/PKG-INFO
+writing dependency_links to lunabotics.egg-info/dependency_links.txt
+writing entry points to lunabotics.egg-info/entry_points.txt
+writing requirements to lunabotics.egg-info/requires.txt
+writing top-level names to lunabotics.egg-info/top_level.txt
+reading manifest file 'lunabotics.egg-info/SOURCES.txt'
+writing manifest file 'lunabotics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages/lunabotics.egg-link (link to .)
+
+Installed /home/lunabotics/ros_lunabotics/build/lunabotics
+running install_data

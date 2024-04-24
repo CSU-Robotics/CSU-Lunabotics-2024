@@ -1,0 +1,20 @@
+[3.698s] Invoking command in '/home/lunabotics/ros_lunabotics/src/lunabotics': PYTHONPATH=/home/lunabotics/ros_lunabotics/build/lunabotics/prefix_override:/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lunabotics build --build-base /home/lunabotics/ros_lunabotics/build/lunabotics/build install --record /home/lunabotics/ros_lunabotics/build/lunabotics/install.log --single-version-externally-managed
+[4.968s] running egg_info
+[4.971s] writing ../../build/lunabotics/lunabotics.egg-info/PKG-INFO
+[4.972s] writing dependency_links to ../../build/lunabotics/lunabotics.egg-info/dependency_links.txt
+[4.973s] writing entry points to ../../build/lunabotics/lunabotics.egg-info/entry_points.txt
+[4.974s] writing requirements to ../../build/lunabotics/lunabotics.egg-info/requires.txt
+[4.974s] writing top-level names to ../../build/lunabotics/lunabotics.egg-info/top_level.txt
+[4.982s] reading manifest file '../../build/lunabotics/lunabotics.egg-info/SOURCES.txt'
+[4.986s] writing manifest file '../../build/lunabotics/lunabotics.egg-info/SOURCES.txt'
+[4.987s] running build
+[4.987s] running build_py
+[4.988s] running install
+[4.989s] running install_lib
+[4.994s] running install_data
+[4.996s] running install_egg_info
+[5.003s] removing '/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages/lunabotics-0.0.0-py3.10.egg-info' (and everything under it)
+[5.004s] Copying ../../build/lunabotics/lunabotics.egg-info to /home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages/lunabotics-0.0.0-py3.10.egg-info
+[5.009s] running install_scripts
+[5.083s] writing list of installed files to '/home/lunabotics/ros_lunabotics/build/lunabotics/install.log'
+[5.209s] Invoked command in '/home/lunabotics/ros_lunabotics/src/lunabotics' returned '0': PYTHONPATH=/home/lunabotics/ros_lunabotics/build/lunabotics/prefix_override:/home/lunabotics/ros_lunabotics/install/lunabotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lunabotics build --build-base /home/lunabotics/ros_lunabotics/build/lunabotics/build install --record /home/lunabotics/ros_lunabotics/build/lunabotics/install.log --single-version-externally-managed
