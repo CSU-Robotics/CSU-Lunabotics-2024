@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/testing
+testing/__init__.py
+testing.egg-info/PKG-INFO
+testing.egg-info/SOURCES.txt
+testing.egg-info/dependency_links.txt
+testing.egg-info/entry_points.txt
+testing.egg-info/requires.txt
+testing.egg-info/top_level.txt
+testing.egg-info/zip-safe

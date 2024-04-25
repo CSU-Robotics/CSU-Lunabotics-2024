@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating testing.egg-info
+writing testing.egg-info/PKG-INFO
+writing dependency_links to testing.egg-info/dependency_links.txt
+writing entry points to testing.egg-info/entry_points.txt
+writing requirements to testing.egg-info/requires.txt
+writing top-level names to testing.egg-info/top_level.txt
+writing manifest file 'testing.egg-info/SOURCES.txt'
+reading manifest file 'testing.egg-info/SOURCES.txt'
+writing manifest file 'testing.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages/testing.egg-link (link to .)
+
+Installed /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing
+running symlink_data
+creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index
+creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index
+creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index/packages
+symbolically linking /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/resource/testing -> /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index/packages
+symbolically linking /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/package.xml -> /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/testing

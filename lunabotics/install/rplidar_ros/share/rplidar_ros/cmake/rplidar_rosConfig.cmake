@@ -1,0 +1,1 @@
+/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros/ament_cmake_core/rplidar_rosConfig.cmake

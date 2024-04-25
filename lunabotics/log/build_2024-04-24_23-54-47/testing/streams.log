@@ -1,0 +1,16 @@
+[3.758s] Invoking command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing': PYTHONPATH=/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/prefix_override:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/build --no-deps symlink_data
+[5.278s] running develop
+[6.396s] running egg_info
+[6.397s] writing testing.egg-info/PKG-INFO
+[6.398s] writing dependency_links to testing.egg-info/dependency_links.txt
+[6.399s] writing entry points to testing.egg-info/entry_points.txt
+[6.400s] writing requirements to testing.egg-info/requires.txt
+[6.400s] writing top-level names to testing.egg-info/top_level.txt
+[6.409s] reading manifest file 'testing.egg-info/SOURCES.txt'
+[6.412s] writing manifest file 'testing.egg-info/SOURCES.txt'
+[6.418s] running build_ext
+[6.419s] Creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages/testing.egg-link (link to .)
+[6.423s] 
+[6.423s] Installed /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing
+[6.423s] running symlink_data
+[6.606s] Invoked command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing' returned '0': PYTHONPATH=/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/prefix_override:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/build --no-deps symlink_data

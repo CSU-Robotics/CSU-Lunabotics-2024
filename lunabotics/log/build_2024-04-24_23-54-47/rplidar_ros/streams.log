@@ -1,0 +1,43 @@
+[0.090s] Invoking command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros -- -j4 -l4
+[0.290s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition_node[0m
+[0.418s] [ 77%] Built target rplidar_composition_node
+[0.474s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[0.573s] [100%] Built target rplidar_composition
+[1.695s] Invoked command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros -- -j4 -l4
+[1.985s] Invoking command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros
+[2.015s] -- Install configuration: ""
+[2.017s] -- Execute custom install script
+[2.019s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.022s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[2.023s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[2.024s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[2.026s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[2.028s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[2.029s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[2.030s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[2.032s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[2.033s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[2.034s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[2.040s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/librplidar_composition_node.so
+[2.041s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/include/rplidar_node.hpp
+[2.042s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/include/visibility.h
+[2.048s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.049s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.050s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.051s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.052s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.053s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.053s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.062s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.062s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.063s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.063s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.064s] -- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.098s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.099s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[2.100s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.102s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.104s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.105s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.106s] -- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.113s] Invoked command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros

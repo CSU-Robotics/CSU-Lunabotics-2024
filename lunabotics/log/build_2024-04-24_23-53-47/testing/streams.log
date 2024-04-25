@@ -1,0 +1,23 @@
+[4.481s] Invoking command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing': PYTHONPATH=/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/prefix_override:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/build --no-deps symlink_data
+[6.160s] running develop
+[7.528s] running egg_info
+[7.529s] creating testing.egg-info
+[7.529s] writing testing.egg-info/PKG-INFO
+[7.530s] writing dependency_links to testing.egg-info/dependency_links.txt
+[7.531s] writing entry points to testing.egg-info/entry_points.txt
+[7.531s] writing requirements to testing.egg-info/requires.txt
+[7.532s] writing top-level names to testing.egg-info/top_level.txt
+[7.533s] writing manifest file 'testing.egg-info/SOURCES.txt'
+[7.541s] reading manifest file 'testing.egg-info/SOURCES.txt'
+[7.544s] writing manifest file 'testing.egg-info/SOURCES.txt'
+[7.552s] running build_ext
+[7.553s] Creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages/testing.egg-link (link to .)
+[7.562s] 
+[7.563s] Installed /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing
+[7.565s] running symlink_data
+[7.566s] creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index
+[7.567s] creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index
+[7.570s] creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index/packages
+[7.572s] symbolically linking /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/resource/testing -> /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index/packages
+[7.573s] symbolically linking /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/package.xml -> /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/testing
+[7.753s] Invoked command in '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing' returned '0': PYTHONPATH=/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/prefix_override:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/build --no-deps symlink_data

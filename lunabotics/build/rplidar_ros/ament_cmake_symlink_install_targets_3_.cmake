@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros/rplidar_composition" "TARGETS" "rplidar_composition" "DESTINATION" "lib/rplidar_ros")

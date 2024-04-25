@@ -1,0 +1,885 @@
+[0.000000] (-) TimerEvent: {}
+[0.001585] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002234] (testing) JobQueued: {'identifier': 'testing', 'dependencies': OrderedDict()}
+[0.002736] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.035669] (testing) JobStarted: {'identifier': 'testing'}
+[0.079257] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.081096] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lidar/install:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/1205,unix/lunabotics-desktop:/tmp/.ICE-unix/1205'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a8b7495_b83c_4c8f_80af_a00ba92a187d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4MSM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.099601] (-) TimerEvent: {}
+[0.200643] (-) TimerEvent: {}
+[0.301488] (-) TimerEvent: {}
+[0.389110] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401658] (-) TimerEvent: {}
+[0.502486] (-) TimerEvent: {}
+[0.603491] (-) TimerEvent: {}
+[0.678945] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.703652] (-) TimerEvent: {}
+[0.708383] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.804191] (-) TimerEvent: {}
+[0.905722] (-) TimerEvent: {}
+[1.006636] (-) TimerEvent: {}
+[1.060468] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.085544] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.086456] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.088027] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.100164] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.106741] (-) TimerEvent: {}
+[1.208315] (-) TimerEvent: {}
+[1.309161] (-) TimerEvent: {}
+[1.410587] (-) TimerEvent: {}
+[1.479741] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.506877] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.508014] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.509747] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.510708] (-) TimerEvent: {}
+[1.530897] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.610936] (-) TimerEvent: {}
+[1.712165] (-) TimerEvent: {}
+[1.812984] (-) TimerEvent: {}
+[1.913938] (-) TimerEvent: {}
+[2.015379] (-) TimerEvent: {}
+[2.117057] (-) TimerEvent: {}
+[2.217860] (-) TimerEvent: {}
+[2.318873] (-) TimerEvent: {}
+[2.420163] (-) TimerEvent: {}
+[2.492628] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.520335] (-) TimerEvent: {}
+[2.621139] (-) TimerEvent: {}
+[2.721907] (-) TimerEvent: {}
+[2.822681] (-) TimerEvent: {}
+[2.824780] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.922875] (-) TimerEvent: {}
+[3.023646] (-) TimerEvent: {}
+[3.108256] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.123842] (-) TimerEvent: {}
+[3.224896] (-) TimerEvent: {}
+[3.325888] (-) TimerEvent: {}
+[3.426853] (-) TimerEvent: {}
+[3.527697] (-) TimerEvent: {}
+[3.628527] (-) TimerEvent: {}
+[3.729231] (-) TimerEvent: {}
+[3.830074] (-) TimerEvent: {}
+[3.887987] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.930274] (-) TimerEvent: {}
+[3.932992] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.996751] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.030418] (-) TimerEvent: {}
+[4.085573] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.130600] (-) TimerEvent: {}
+[4.213711] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.230820] (-) TimerEvent: {}
+[4.331914] (-) TimerEvent: {}
+[4.433493] (-) TimerEvent: {}
+[4.511986] (testing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lunabotics', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lunabotics', 'OLDPWD': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1228', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lunabotics/lidar/install:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lunabotics', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lunabotics', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lunabotics-desktop:@/tmp/.ICE-unix/1205,unix/lunabotics-desktop:/tmp/.ICE-unix/1205', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4a8b7495_b83c_4c8f_80af_a00ba92a187d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O4MSM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.131', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/prefix_override:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lunabotics/lidar/install/rplidar_ros'}, 'shell': False}
+[4.533626] (-) TimerEvent: {}
+[4.634407] (-) TimerEvent: {}
+[4.680322] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.704030] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.734624] (-) TimerEvent: {}
+[4.835464] (-) TimerEvent: {}
+[4.936205] (-) TimerEvent: {}
+[5.036915] (-) TimerEvent: {}
+[5.137578] (-) TimerEvent: {}
+[5.238368] (-) TimerEvent: {}
+[5.335245] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.338614] (-) TimerEvent: {}
+[5.439407] (-) TimerEvent: {}
+[5.540139] (-) TimerEvent: {}
+[5.593762] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.640301] (-) TimerEvent: {}
+[5.740973] (-) TimerEvent: {}
+[5.841659] (-) TimerEvent: {}
+[5.942389] (-) TimerEvent: {}
+[6.033913] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.042570] (-) TimerEvent: {}
+[6.115722] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.142801] (-) TimerEvent: {}
+[6.195527] (testing) StdoutLine: {'line': b'running develop\n'}
+[6.242967] (-) TimerEvent: {}
+[6.343811] (-) TimerEvent: {}
+[6.444919] (-) TimerEvent: {}
+[6.476795] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.478318] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.545117] (-) TimerEvent: {}
+[6.645867] (-) TimerEvent: {}
+[6.746545] (-) TimerEvent: {}
+[6.847311] (-) TimerEvent: {}
+[6.854334] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.859636] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.947477] (-) TimerEvent: {}
+[7.048281] (-) TimerEvent: {}
+[7.149043] (-) TimerEvent: {}
+[7.249797] (-) TimerEvent: {}
+[7.350671] (-) TimerEvent: {}
+[7.451451] (-) TimerEvent: {}
+[7.552296] (-) TimerEvent: {}
+[7.563957] (testing) StdoutLine: {'line': b'running egg_info\n'}
+[7.564880] (testing) StdoutLine: {'line': b'creating testing.egg-info\n'}
+[7.565532] (testing) StdoutLine: {'line': b'writing testing.egg-info/PKG-INFO\n'}
+[7.566233] (testing) StdoutLine: {'line': b'writing dependency_links to testing.egg-info/dependency_links.txt\n'}
+[7.566954] (testing) StdoutLine: {'line': b'writing entry points to testing.egg-info/entry_points.txt\n'}
+[7.567533] (testing) StdoutLine: {'line': b'writing requirements to testing.egg-info/requires.txt\n'}
+[7.568131] (testing) StdoutLine: {'line': b'writing top-level names to testing.egg-info/top_level.txt\n'}
+[7.569599] (testing) StdoutLine: {'line': b"writing manifest file 'testing.egg-info/SOURCES.txt'\n"}
+[7.577326] (testing) StdoutLine: {'line': b"reading manifest file 'testing.egg-info/SOURCES.txt'\n"}
+[7.580415] (testing) StdoutLine: {'line': b"writing manifest file 'testing.egg-info/SOURCES.txt'\n"}
+[7.588125] (testing) StdoutLine: {'line': b'running build_ext\n'}
+[7.589296] (testing) StdoutLine: {'line': b'Creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages/testing.egg-link (link to .)\n'}
+[7.598046] (testing) StdoutLine: {'line': b'\n'}
+[7.599120] (testing) StdoutLine: {'line': b'Installed /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing\n'}
+[7.600169] (testing) StdoutLine: {'line': b'running symlink_data\n'}
+[7.601919] (testing) StdoutLine: {'line': b'creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index\n'}
+[7.603023] (testing) StdoutLine: {'line': b'creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index\n'}
+[7.605623] (testing) StdoutLine: {'line': b'creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index/packages\n'}
+[7.607313] (testing) StdoutLine: {'line': b'symbolically linking /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/resource/testing -> /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/ament_index/resource_index/packages\n'}
+[7.608850] (testing) StdoutLine: {'line': b'symbolically linking /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/package.xml -> /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/share/testing\n'}
+[7.652576] (-) TimerEvent: {}
+[7.754136] (-) TimerEvent: {}
+[7.787279] (testing) CommandEnded: {'returncode': 0}
+[7.847093] (testing) JobEnded: {'identifier': 'testing', 'rc': 0}
+[7.854277] (-) TimerEvent: {}
+[7.954923] (-) TimerEvent: {}
+[8.055648] (-) TimerEvent: {}
+[8.156444] (-) TimerEvent: {}
+[8.257136] (-) TimerEvent: {}
+[8.357867] (-) TimerEvent: {}
+[8.458563] (-) TimerEvent: {}
+[8.559285] (-) TimerEvent: {}
+[8.660015] (-) TimerEvent: {}
+[8.676598] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.760198] (-) TimerEvent: {}
+[8.771633] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[8.780123] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros\n'}
+[8.829587] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.831444] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[8.833929] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lidar/install:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/1205,unix/lunabotics-desktop:/tmp/.ICE-unix/1205'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a8b7495_b83c_4c8f_80af_a00ba92a187d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4MSM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[8.860399] (-) TimerEvent: {}
+[8.961290] (-) TimerEvent: {}
+[9.062255] (-) TimerEvent: {}
+[9.080634] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[9.081916] (rplidar_ros) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[9.087418] (rplidar_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[9.088359] (rplidar_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[9.162484] (-) TimerEvent: {}
+[9.263285] (-) TimerEvent: {}
+[9.364101] (-) TimerEvent: {}
+[9.464968] (-) TimerEvent: {}
+[9.566128] (-) TimerEvent: {}
+[9.667406] (-) TimerEvent: {}
+[9.768289] (-) TimerEvent: {}
+[9.869265] (-) TimerEvent: {}
+[9.970144] (-) TimerEvent: {}
+[10.071007] (-) TimerEvent: {}
+[10.171859] (-) TimerEvent: {}
+[10.272899] (-) TimerEvent: {}
+[10.374038] (-) TimerEvent: {}
+[10.475153] (-) TimerEvent: {}
+[10.576266] (-) TimerEvent: {}
+[10.677474] (-) TimerEvent: {}
+[10.778687] (-) TimerEvent: {}
+[10.879845] (-) TimerEvent: {}
+[10.981037] (-) TimerEvent: {}
+[11.006805] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[11.008475] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[11.010298] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[11.011613] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[11.012630] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[11.013470] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[11.014648] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[11.015355] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[11.016248] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[11.017004] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[11.017516] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.017978] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.018447] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.019522] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.025315] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.026369] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.027131] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[11.027736] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[11.028694] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[11.029873] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[11.030950] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[11.045113] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[11.081333] (-) TimerEvent: {}
+[11.183517] (-) TimerEvent: {}
+[11.285156] (-) TimerEvent: {}
+[11.386706] (-) TimerEvent: {}
+[11.488929] (-) TimerEvent: {}
+[11.590392] (-) TimerEvent: {}
+[11.691987] (-) TimerEvent: {}
+[11.793495] (-) TimerEvent: {}
+[11.885801] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[11.888373] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[11.890468] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[11.892660] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.893712] (-) TimerEvent: {}
+[11.895206] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[11.897123] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.902021] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[11.903893] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[11.905414] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[11.916310] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.917557] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[11.918668] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.977379] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.979359] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.980976] (rplidar_ros) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[11.982334] (rplidar_ros) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.994070] (-) TimerEvent: {}
+[12.002613] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[12.003984] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/sdkcommon.h:40\x1b[m\x1b[K,\n'}
+[12.005758] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[12.007249] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.008810] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.010552] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[12.012285] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.094360] (-) TimerEvent: {}
+[12.195608] (-) TimerEvent: {}
+[12.296856] (-) TimerEvent: {}
+[12.398021] (-) TimerEvent: {}
+[12.486659] (rplidar_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[12.498368] (-) TimerEvent: {}
+[12.599537] (-) TimerEvent: {}
+[12.637231] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.638127] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.638868] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[12.639669] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[12.643869] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.645156] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.646555] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[12.648003] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[12.651455] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.652387] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.653224] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[12.664665] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.665406] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.666065] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.666740] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[12.667569] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.699867] (-) TimerEvent: {}
+[12.800906] (-) TimerEvent: {}
+[12.902158] (-) TimerEvent: {}
+[13.003842] (-) TimerEvent: {}
+[13.058189] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[13.104114] (-) TimerEvent: {}
+[13.205192] (-) TimerEvent: {}
+[13.306153] (-) TimerEvent: {}
+[13.407267] (-) TimerEvent: {}
+[13.508318] (-) TimerEvent: {}
+[13.609180] (-) TimerEvent: {}
+[13.710004] (-) TimerEvent: {}
+[13.810964] (-) TimerEvent: {}
+[13.911835] (-) TimerEvent: {}
+[14.012769] (-) TimerEvent: {}
+[14.114086] (-) TimerEvent: {}
+[14.216090] (-) TimerEvent: {}
+[14.317582] (-) TimerEvent: {}
+[14.419391] (-) TimerEvent: {}
+[14.520651] (-) TimerEvent: {}
+[14.622048] (-) TimerEvent: {}
+[14.723026] (-) TimerEvent: {}
+[14.824239] (-) TimerEvent: {}
+[14.925983] (-) TimerEvent: {}
+[15.027421] (-) TimerEvent: {}
+[15.101112] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[15.102206] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[15.103545] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[15.105143] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.106137] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.106896] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.107720] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[15.108645] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[15.109793] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[15.110825] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.111671] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.112508] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.113923] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[15.114806] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.115620] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.116688] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[15.117640] (rplidar_ros) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.119301] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.120367] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.121408] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[15.122389] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[15.127631] (-) TimerEvent: {}
+[15.229431] (-) TimerEvent: {}
+[15.330833] (-) TimerEvent: {}
+[15.432090] (-) TimerEvent: {}
+[15.533329] (-) TimerEvent: {}
+[15.634602] (-) TimerEvent: {}
+[15.725935] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[15.726841] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[15.727607] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[15.728884] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.729685] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.730502] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.731145] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[15.732038] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[15.732780] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[15.733643] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.734468] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.735213] (-) TimerEvent: {}
+[15.736279] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.835456] (-) TimerEvent: {}
+[15.936425] (-) TimerEvent: {}
+[16.037376] (-) TimerEvent: {}
+[16.138234] (-) TimerEvent: {}
+[16.239126] (-) TimerEvent: {}
+[16.338022] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.338775] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.339328] (-) TimerEvent: {}
+[16.339851] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[16.340775] (rplidar_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.344267] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.345005] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:275:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.345707] (rplidar_ros) StderrLine: {'line': b'  275 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[16.346288] (rplidar_ros) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.360039] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::standalone::rplidar::RPlidarDriverImplCommon::_getSyncBitByAngle(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.360981] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:671:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Klast_angleInc_q16\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.361712] (rplidar_ros) StderrLine: {'line': b'  671 |     static int \x1b[01;35m\x1b[Klast_angleInc_q16\x1b[m\x1b[K = 0;\n'}
+[16.362287] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.362840] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:673:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.363435] (rplidar_ros) StderrLine: {'line': b'  673 |     int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree\n'}
+[16.364043] (rplidar_ros) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.366330] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::_cacheUltraCapsuledScanData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.366995] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:771:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_scan_count\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.367547] (rplidar_ros) StderrLine: {'line': b'  771 |     size_t                                   \x1b[01;35m\x1b[Klast_scan_count\x1b[m\x1b[K = 0;\n'}
+[16.368118] (rplidar_ros) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.370596] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.371697] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:850:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.372729] (rplidar_ros) StderrLine: {'line': b'  850 |             int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree\n'}
+[16.374372] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.375130] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.375873] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:903:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.376690] (rplidar_ros) StderrLine: {'line': b'  903 |             const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[16.377450] (rplidar_ros) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.380639] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.382290] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1027:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.385546] (rplidar_ros) StderrLine: {'line': b' 1027 |     _u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[16.386728] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[16.393411] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.394896] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1238:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.395489] (rplidar_ros) StderrLine: {'line': b' 1238 |             if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[16.396300] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.396949] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1246:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.397500] (rplidar_ros) StderrLine: {'line': b' 1246 |             if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[16.398016] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.398563] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1256:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.399286] (rplidar_ros) StderrLine: {'line': b' 1256 |                 int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree\n'}
+[16.399881] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.419345] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.420127] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1484:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.420751] (rplidar_ros) StderrLine: {'line': b' 1484 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, \x1b[01;35m\x1b[K_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[16.421329] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.423962] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.424799] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1581:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.425369] (rplidar_ros) StderrLine: {'line': b' 1581 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[K_u32 options\x1b[m\x1b[K, RplidarScanMode* outUsedScanMode)\n'}
+[16.425957] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.431125] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.431885] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1805:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.432727] (rplidar_ros) StderrLine: {'line': b' 1805 | u_result RPlidarDriverImplCommon::stop(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[16.433374] (rplidar_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.439579] (-) TimerEvent: {}
+[16.447075] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.447797] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2193:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.448507] (rplidar_ros) StderrLine: {'line': b' 2193 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[16.449090] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[16.452170] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.452954] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2270:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.453677] (rplidar_ros) StderrLine: {'line': b' 2270 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[16.454229] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.455464] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.456219] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2312:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.456804] (rplidar_ros) StderrLine: {'line': b' 2312 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[16.457368] (rplidar_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.539829] (-) TimerEvent: {}
+[16.567553] (rplidar_ros) StderrLine: {'line': b'/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.568629] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2025:64:\x1b[m\x1b[K   required from here\n'}
+[16.569442] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.570283] (rplidar_ros) StderrLine: {'line': b' 1991 |     for (i = count - 1; \x1b[01;35m\x1b[Ki >= 0\x1b[m\x1b[K; i--) {\n'}
+[16.571584] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[16.572595] (rplidar_ros) StderrLine: {'line': b'/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.573420] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2030:67:\x1b[m\x1b[K   required from here\n'}
+[16.574110] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.640116] (-) TimerEvent: {}
+[16.740964] (-) TimerEvent: {}
+[16.841944] (-) TimerEvent: {}
+[16.867164] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.868237] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2225:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.868936] (rplidar_ros) StderrLine: {'line': b' 2225 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[16.869584] (rplidar_ros) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.942253] (-) TimerEvent: {}
+[17.043610] (-) TimerEvent: {}
+[17.144550] (-) TimerEvent: {}
+[17.245647] (-) TimerEvent: {}
+[17.346617] (-) TimerEvent: {}
+[17.447516] (-) TimerEvent: {}
+[17.548460] (-) TimerEvent: {}
+[17.649402] (-) TimerEvent: {}
+[17.750365] (-) TimerEvent: {}
+[17.851462] (-) TimerEvent: {}
+[17.952551] (-) TimerEvent: {}
+[18.053509] (-) TimerEvent: {}
+[18.154387] (-) TimerEvent: {}
+[18.255211] (-) TimerEvent: {}
+[18.356075] (-) TimerEvent: {}
+[18.456911] (-) TimerEvent: {}
+[18.557690] (-) TimerEvent: {}
+[18.658503] (-) TimerEvent: {}
+[18.759283] (-) TimerEvent: {}
+[18.860078] (-) TimerEvent: {}
+[18.960879] (-) TimerEvent: {}
+[19.061653] (-) TimerEvent: {}
+[19.162432] (-) TimerEvent: {}
+[19.263228] (-) TimerEvent: {}
+[19.364076] (-) TimerEvent: {}
+[19.464928] (-) TimerEvent: {}
+[19.565751] (-) TimerEvent: {}
+[19.666551] (-) TimerEvent: {}
+[19.767372] (-) TimerEvent: {}
+[19.868161] (-) TimerEvent: {}
+[19.968965] (-) TimerEvent: {}
+[20.069762] (-) TimerEvent: {}
+[20.170569] (-) TimerEvent: {}
+[20.271328] (-) TimerEvent: {}
+[20.372126] (-) TimerEvent: {}
+[20.472940] (-) TimerEvent: {}
+[20.573710] (-) TimerEvent: {}
+[20.674487] (-) TimerEvent: {}
+[20.775247] (-) TimerEvent: {}
+[20.876052] (-) TimerEvent: {}
+[20.976945] (-) TimerEvent: {}
+[21.077789] (-) TimerEvent: {}
+[21.178598] (-) TimerEvent: {}
+[21.279416] (-) TimerEvent: {}
+[21.380303] (-) TimerEvent: {}
+[21.481122] (-) TimerEvent: {}
+[21.581890] (-) TimerEvent: {}
+[21.682677] (-) TimerEvent: {}
+[21.783468] (-) TimerEvent: {}
+[21.884262] (-) TimerEvent: {}
+[21.943015] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[21.943667] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[21.944143] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[21.944811] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.945280] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.945644] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.945971] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[21.946297] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[21.946654] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[21.946972] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.947377] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.947713] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.984456] (-) TimerEvent: {}
+[22.085440] (-) TimerEvent: {}
+[22.186238] (-) TimerEvent: {}
+[22.208655] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.209276] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:248:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.209671] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[22.210040] (rplidar_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[22.210386] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:248:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.210764] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[22.211547] (rplidar_ros) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[22.211967] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.212439] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:259:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.212907] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[22.213315] (rplidar_ros) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[22.213830] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:259:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.214421] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[22.214870] (rplidar_ros) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[22.239470] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::publish_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.240141] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:362:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.240653] (rplidar_ros) StderrLine: {'line': b'  362 |           for (j = 0; \x1b[01;35m\x1b[Kj < m_angle_compensate_multiple\x1b[m\x1b[K; j++) {\n'}
+[22.241017] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.241605] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:383:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.242171] (rplidar_ros) StderrLine: {'line': b'  383 |       for (size_t x = start_node, y = 0; \x1b[01;35m\x1b[Kx < end_node\x1b[m\x1b[K; ++x, ++y) {\n'}
+[22.242719] (rplidar_ros) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.243224] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:390:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.243606] (rplidar_ros) StderrLine: {'line': b'  390 |     float \x1b[01;35m\x1b[Kangle_min\x1b[m\x1b[K = deg_2_rad(0.0f);\n'}
+[22.243981] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.244421] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/rplidar_node.cpp:391:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.244875] (rplidar_ros) StderrLine: {'line': b'  391 |     float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = deg_2_rad(359.0f);\n'}
+[22.245490] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.286457] (-) TimerEvent: {}
+[22.387207] (-) TimerEvent: {}
+[22.488014] (-) TimerEvent: {}
+[22.588789] (-) TimerEvent: {}
+[22.689610] (-) TimerEvent: {}
+[22.790417] (-) TimerEvent: {}
+[22.891224] (-) TimerEvent: {}
+[22.992039] (-) TimerEvent: {}
+[23.092800] (-) TimerEvent: {}
+[23.193624] (-) TimerEvent: {}
+[23.294408] (-) TimerEvent: {}
+[23.395185] (-) TimerEvent: {}
+[23.496009] (-) TimerEvent: {}
+[23.596771] (-) TimerEvent: {}
+[23.697599] (-) TimerEvent: {}
+[23.798372] (-) TimerEvent: {}
+[23.899168] (-) TimerEvent: {}
+[24.000006] (-) TimerEvent: {}
+[24.100798] (-) TimerEvent: {}
+[24.201626] (-) TimerEvent: {}
+[24.302416] (-) TimerEvent: {}
+[24.403181] (-) TimerEvent: {}
+[24.503964] (-) TimerEvent: {}
+[24.604745] (-) TimerEvent: {}
+[24.705608] (-) TimerEvent: {}
+[24.806378] (-) TimerEvent: {}
+[24.907147] (-) TimerEvent: {}
+[25.007987] (-) TimerEvent: {}
+[25.108761] (-) TimerEvent: {}
+[25.209584] (-) TimerEvent: {}
+[25.310364] (-) TimerEvent: {}
+[25.411146] (-) TimerEvent: {}
+[25.511995] (-) TimerEvent: {}
+[25.612754] (-) TimerEvent: {}
+[25.713564] (-) TimerEvent: {}
+[25.814380] (-) TimerEvent: {}
+[25.915145] (-) TimerEvent: {}
+[26.015895] (-) TimerEvent: {}
+[26.116691] (-) TimerEvent: {}
+[26.217532] (-) TimerEvent: {}
+[26.318318] (-) TimerEvent: {}
+[26.419145] (-) TimerEvent: {}
+[26.520034] (-) TimerEvent: {}
+[26.620945] (-) TimerEvent: {}
+[26.721773] (-) TimerEvent: {}
+[26.822557] (-) TimerEvent: {}
+[26.923456] (-) TimerEvent: {}
+[27.024459] (-) TimerEvent: {}
+[27.125269] (-) TimerEvent: {}
+[27.226094] (-) TimerEvent: {}
+[27.327071] (-) TimerEvent: {}
+[27.427910] (-) TimerEvent: {}
+[27.528716] (-) TimerEvent: {}
+[27.629529] (-) TimerEvent: {}
+[27.730304] (-) TimerEvent: {}
+[27.831077] (-) TimerEvent: {}
+[27.931873] (-) TimerEvent: {}
+[28.032657] (-) TimerEvent: {}
+[28.133418] (-) TimerEvent: {}
+[28.234203] (-) TimerEvent: {}
+[28.334976] (-) TimerEvent: {}
+[28.435782] (-) TimerEvent: {}
+[28.536600] (-) TimerEvent: {}
+[28.637375] (-) TimerEvent: {}
+[28.738145] (-) TimerEvent: {}
+[28.838919] (-) TimerEvent: {}
+[28.939699] (-) TimerEvent: {}
+[29.040511] (-) TimerEvent: {}
+[29.141398] (-) TimerEvent: {}
+[29.242159] (-) TimerEvent: {}
+[29.342926] (-) TimerEvent: {}
+[29.443701] (-) TimerEvent: {}
+[29.544529] (-) TimerEvent: {}
+[29.645329] (-) TimerEvent: {}
+[29.746090] (-) TimerEvent: {}
+[29.846875] (-) TimerEvent: {}
+[29.947618] (-) TimerEvent: {}
+[30.048642] (-) TimerEvent: {}
+[30.149431] (-) TimerEvent: {}
+[30.250218] (-) TimerEvent: {}
+[30.351007] (-) TimerEvent: {}
+[30.451792] (-) TimerEvent: {}
+[30.552628] (-) TimerEvent: {}
+[30.653444] (-) TimerEvent: {}
+[30.754256] (-) TimerEvent: {}
+[30.855130] (-) TimerEvent: {}
+[30.956066] (-) TimerEvent: {}
+[31.057023] (-) TimerEvent: {}
+[31.157806] (-) TimerEvent: {}
+[31.258595] (-) TimerEvent: {}
+[31.359378] (-) TimerEvent: {}
+[31.460175] (-) TimerEvent: {}
+[31.560993] (-) TimerEvent: {}
+[31.661723] (-) TimerEvent: {}
+[31.762496] (-) TimerEvent: {}
+[31.863313] (-) TimerEvent: {}
+[31.964109] (-) TimerEvent: {}
+[32.064924] (-) TimerEvent: {}
+[32.165719] (-) TimerEvent: {}
+[32.266510] (-) TimerEvent: {}
+[32.367309] (-) TimerEvent: {}
+[32.468117] (-) TimerEvent: {}
+[32.568963] (-) TimerEvent: {}
+[32.669745] (-) TimerEvent: {}
+[32.770505] (-) TimerEvent: {}
+[32.871274] (-) TimerEvent: {}
+[32.972087] (-) TimerEvent: {}
+[33.072810] (-) TimerEvent: {}
+[33.173601] (-) TimerEvent: {}
+[33.274388] (-) TimerEvent: {}
+[33.375201] (-) TimerEvent: {}
+[33.476025] (-) TimerEvent: {}
+[33.576800] (-) TimerEvent: {}
+[33.677668] (-) TimerEvent: {}
+[33.778909] (-) TimerEvent: {}
+[33.879840] (-) TimerEvent: {}
+[33.980600] (-) TimerEvent: {}
+[34.081407] (-) TimerEvent: {}
+[34.182199] (-) TimerEvent: {}
+[34.282959] (-) TimerEvent: {}
+[34.383740] (-) TimerEvent: {}
+[34.484515] (-) TimerEvent: {}
+[34.585266] (-) TimerEvent: {}
+[34.686040] (-) TimerEvent: {}
+[34.786882] (-) TimerEvent: {}
+[34.888021] (-) TimerEvent: {}
+[34.989004] (-) TimerEvent: {}
+[35.089820] (-) TimerEvent: {}
+[35.124344] (rplidar_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[35.190026] (-) TimerEvent: {}
+[35.290923] (-) TimerEvent: {}
+[35.392075] (-) TimerEvent: {}
+[35.493062] (-) TimerEvent: {}
+[35.594060] (-) TimerEvent: {}
+[35.695154] (-) TimerEvent: {}
+[35.796534] (-) TimerEvent: {}
+[35.897569] (-) TimerEvent: {}
+[35.998906] (-) TimerEvent: {}
+[36.099760] (-) TimerEvent: {}
+[36.200445] (-) TimerEvent: {}
+[36.301192] (-) TimerEvent: {}
+[36.402026] (-) TimerEvent: {}
+[36.502788] (-) TimerEvent: {}
+[36.577360] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[36.603013] (-) TimerEvent: {}
+[36.670593] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\x1b[0m\n'}
+[36.703360] (-) TimerEvent: {}
+[36.804347] (-) TimerEvent: {}
+[36.905069] (-) TimerEvent: {}
+[37.005764] (-) TimerEvent: {}
+[37.106648] (-) TimerEvent: {}
+[37.207358] (-) TimerEvent: {}
+[37.308126] (-) TimerEvent: {}
+[37.408848] (-) TimerEvent: {}
+[37.509609] (-) TimerEvent: {}
+[37.610323] (-) TimerEvent: {}
+[37.711020] (-) TimerEvent: {}
+[37.811730] (-) TimerEvent: {}
+[37.912559] (-) TimerEvent: {}
+[38.013320] (-) TimerEvent: {}
+[38.114032] (-) TimerEvent: {}
+[38.214769] (-) TimerEvent: {}
+[38.315466] (-) TimerEvent: {}
+[38.413605] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[38.414533] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[38.414913] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[38.415244] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[38.415554] (-) TimerEvent: {}
+[38.415980] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[38.416485] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[38.416843] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[38.417180] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[38.417599] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[38.417943] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[38.418276] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[38.418608] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[38.418973] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[38.419300] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[38.419630] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[38.420024] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[38.420475] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[38.420797] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[38.421111] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[38.421438] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[38.421826] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[38.422153] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[38.515791] (-) TimerEvent: {}
+[38.616584] (-) TimerEvent: {}
+[38.717409] (-) TimerEvent: {}
+[38.818187] (-) TimerEvent: {}
+[38.919026] (-) TimerEvent: {}
+[39.019802] (-) TimerEvent: {}
+[39.120627] (-) TimerEvent: {}
+[39.221513] (-) TimerEvent: {}
+[39.322328] (-) TimerEvent: {}
+[39.423094] (-) TimerEvent: {}
+[39.523853] (-) TimerEvent: {}
+[39.624695] (-) TimerEvent: {}
+[39.725526] (-) TimerEvent: {}
+[39.826309] (-) TimerEvent: {}
+[39.927098] (-) TimerEvent: {}
+[40.027871] (-) TimerEvent: {}
+[40.128707] (-) TimerEvent: {}
+[40.229580] (-) TimerEvent: {}
+[40.330408] (-) TimerEvent: {}
+[40.431259] (-) TimerEvent: {}
+[40.532121] (-) TimerEvent: {}
+[40.632864] (-) TimerEvent: {}
+[40.733645] (-) TimerEvent: {}
+[40.834424] (-) TimerEvent: {}
+[40.935226] (-) TimerEvent: {}
+[41.036046] (-) TimerEvent: {}
+[41.136789] (-) TimerEvent: {}
+[41.237587] (-) TimerEvent: {}
+[41.338433] (-) TimerEvent: {}
+[41.439188] (-) TimerEvent: {}
+[41.540030] (-) TimerEvent: {}
+[41.640820] (-) TimerEvent: {}
+[41.741610] (-) TimerEvent: {}
+[41.842419] (-) TimerEvent: {}
+[41.943182] (-) TimerEvent: {}
+[42.044027] (-) TimerEvent: {}
+[42.144912] (-) TimerEvent: {}
+[42.245693] (-) TimerEvent: {}
+[42.346464] (-) TimerEvent: {}
+[42.447230] (-) TimerEvent: {}
+[42.548072] (-) TimerEvent: {}
+[42.648868] (-) TimerEvent: {}
+[42.749649] (-) TimerEvent: {}
+[42.850423] (-) TimerEvent: {}
+[42.951220] (-) TimerEvent: {}
+[43.052055] (-) TimerEvent: {}
+[43.152836] (-) TimerEvent: {}
+[43.253666] (-) TimerEvent: {}
+[43.354433] (-) TimerEvent: {}
+[43.455194] (-) TimerEvent: {}
+[43.556003] (-) TimerEvent: {}
+[43.656766] (-) TimerEvent: {}
+[43.757574] (-) TimerEvent: {}
+[43.858364] (-) TimerEvent: {}
+[43.959118] (-) TimerEvent: {}
+[44.059880] (-) TimerEvent: {}
+[44.160654] (-) TimerEvent: {}
+[44.261511] (-) TimerEvent: {}
+[44.362313] (-) TimerEvent: {}
+[44.463104] (-) TimerEvent: {}
+[44.563893] (-) TimerEvent: {}
+[44.664734] (-) TimerEvent: {}
+[44.765637] (-) TimerEvent: {}
+[44.866426] (-) TimerEvent: {}
+[44.967199] (-) TimerEvent: {}
+[45.068030] (-) TimerEvent: {}
+[45.168796] (-) TimerEvent: {}
+[45.269638] (-) TimerEvent: {}
+[45.370441] (-) TimerEvent: {}
+[45.471238] (-) TimerEvent: {}
+[45.572055] (-) TimerEvent: {}
+[45.672799] (-) TimerEvent: {}
+[45.773624] (-) TimerEvent: {}
+[45.874402] (-) TimerEvent: {}
+[45.975190] (-) TimerEvent: {}
+[46.076029] (-) TimerEvent: {}
+[46.176866] (-) TimerEvent: {}
+[46.277717] (-) TimerEvent: {}
+[46.378500] (-) TimerEvent: {}
+[46.479315] (-) TimerEvent: {}
+[46.580108] (-) TimerEvent: {}
+[46.680897] (-) TimerEvent: {}
+[46.781722] (-) TimerEvent: {}
+[46.882563] (-) TimerEvent: {}
+[46.983350] (-) TimerEvent: {}
+[47.084137] (-) TimerEvent: {}
+[47.144353] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[47.149842] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[47.150372] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[47.150765] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[47.151248] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[47.151654] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[47.152092] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[47.152526] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[47.152870] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[47.153215] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[47.153614] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[47.153965] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[47.184328] (-) TimerEvent: {}
+[47.285180] (-) TimerEvent: {}
+[47.386019] (-) TimerEvent: {}
+[47.486816] (-) TimerEvent: {}
+[47.587568] (-) TimerEvent: {}
+[47.688411] (-) TimerEvent: {}
+[47.789176] (-) TimerEvent: {}
+[47.889992] (-) TimerEvent: {}
+[47.990764] (-) TimerEvent: {}
+[48.091532] (-) TimerEvent: {}
+[48.192345] (-) TimerEvent: {}
+[48.293106] (-) TimerEvent: {}
+[48.393937] (-) TimerEvent: {}
+[48.494723] (-) TimerEvent: {}
+[48.595517] (-) TimerEvent: {}
+[48.696338] (-) TimerEvent: {}
+[48.797106] (-) TimerEvent: {}
+[48.863357] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[48.864431] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src/rplidar_ros2/include/rplidar_node.hpp:76:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[48.865218] (rplidar_ros) StderrLine: {'line': b'   76 | static float \x1b[01;35m\x1b[KgetAngle\x1b[m\x1b[K(const rplidar_response_measurement_node_hq_t & node)\n'}
+[48.866223] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[48.897321] (-) TimerEvent: {}
+[48.998089] (-) TimerEvent: {}
+[49.098930] (-) TimerEvent: {}
+[49.199848] (-) TimerEvent: {}
+[49.301155] (-) TimerEvent: {}
+[49.356119] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[49.401289] (-) TimerEvent: {}
+[49.502080] (-) TimerEvent: {}
+[49.603213] (-) TimerEvent: {}
+[49.704115] (-) TimerEvent: {}
+[49.805263] (-) TimerEvent: {}
+[49.906305] (-) TimerEvent: {}
+[50.007272] (-) TimerEvent: {}
+[50.108180] (-) TimerEvent: {}
+[50.209051] (-) TimerEvent: {}
+[50.309874] (-) TimerEvent: {}
+[50.371090] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[50.410108] (-) TimerEvent: {}
+[50.412720] (rplidar_ros) CommandEnded: {'returncode': 0}
+[50.510316] (-) TimerEvent: {}
+[50.610947] (-) TimerEvent: {}
+[50.641753] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[50.680257] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1228'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lidar/install:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/1205,unix/lunabotics-desktop:/tmp/.ICE-unix/1205'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a8b7495_b83c_4c8f_80af_a00ba92a187d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O4MSM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[50.711170] (-) TimerEvent: {}
+[50.714307] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.716141] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[50.718210] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[50.757299] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[50.792594] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[50.811393] (-) TimerEvent: {}
+[50.825558] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[50.863408] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[50.896086] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[50.911662] (-) TimerEvent: {}
+[50.929721] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[50.965583] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[50.998871] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[51.011895] (-) TimerEvent: {}
+[51.032071] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[51.070666] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[51.104474] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[51.112254] (-) TimerEvent: {}
+[51.140514] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[51.178859] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/include/visibility.h\n'}
+[51.212442] (-) TimerEvent: {}
+[51.213182] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[51.214345] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[51.253632] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[51.287454] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[51.312732] (-) TimerEvent: {}
+[51.321574] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[51.359494] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[51.393720] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[51.412894] (-) TimerEvent: {}
+[51.427852] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[51.465816] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[51.500286] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[51.513085] (-) TimerEvent: {}
+[51.535399] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[51.573986] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[51.608774] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[51.613230] (-) TimerEvent: {}
+[51.644674] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[51.682050] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[51.713441] (-) TimerEvent: {}
+[51.716976] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[51.756037] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[51.789879] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[51.813662] (-) TimerEvent: {}
+[51.823737] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[51.866115] (rplidar_ros) CommandEnded: {'returncode': 0}
+[51.913849] (-) TimerEvent: {}
+[52.014577] (-) TimerEvent: {}
+[52.116148] (-) TimerEvent: {}
+[52.179994] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[52.206159] (-) EventReactorShutdown: {}
