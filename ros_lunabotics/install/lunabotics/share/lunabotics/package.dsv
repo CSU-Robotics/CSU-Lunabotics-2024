@@ -1,6 +1,0 @@
-source;share/lunabotics/hook/pythonpath.ps1
-source;share/lunabotics/hook/pythonpath.dsv
-source;share/lunabotics/hook/pythonpath.sh
-source;share/lunabotics/hook/ament_prefix_path.ps1
-source;share/lunabotics/hook/ament_prefix_path.dsv
-source;share/lunabotics/hook/ament_prefix_path.sh

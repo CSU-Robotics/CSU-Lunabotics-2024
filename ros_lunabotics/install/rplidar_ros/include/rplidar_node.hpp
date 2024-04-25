@@ -1,1 +1,0 @@
-/home/lunabotics/ros_lunabotics/src/lidar/rplidar_ros2/include/rplidar_node.hpp
