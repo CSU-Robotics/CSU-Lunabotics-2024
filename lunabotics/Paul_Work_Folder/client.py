@@ -1,6 +1,20 @@
 import socket
+
+def get_ip_address():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        # Use a public IP address to make a connection, the connection is not established.
+        s.connect(('8.8.8.8', 80))
+        ip_address = s.getsockname()[0]
+    except Exception as e:
+        print("Error:", e)
+        ip_address = None
+    finally:
+        s.close()
+    return ip_address
+
 # Server configuration
-SERVER_HOST = '172.20.41.70'  # IP address of the server
+SERVER_HOST = get_ip_address()  # IP address of the server
 SERVER_PORT = 12345  # Same port as the server
 
 # Create a socket object
