@@ -1,32 +1,35 @@
 import socket
+import subprocess
 
-# Server configuration
-HOST = '0.0.0.0'  # Listen on all network interfaces
-PORT = 12345  # Arbitrary non-privileged port
+def get_ip_address():
+    # Run a command to get the IP address
+    result = subprocess.run(['hostname', '-I'], stdout=subprocess.PIPE)
+    ip_address = result.stdout.decode().strip()
+    return ip_address
 
-# Create a socket object
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+def server():
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket.bind(('0.0.0.0', 12345))  # Server listens on all interfaces on port 12345
+    server_socket.listen(1)  # Listen for one incoming connection
 
-# Bind the socket to the host and port
-server_socket.bind((HOST, PORT))
+    print("Server listening for connections...")
 
-# Listen for incoming connections
-server_socket.listen(1)
+    client_socket, client_address = server_socket.accept()
+    print("Connection established with:", client_address)
 
-print("Server is listening for connections...")
+    # Get the server's IP address
+    server_ip = get_ip_address()
+    client_socket.sendall(server_ip.encode())  # Send the IP address to the client
 
-# Accept a connection
-client_socket, client_address = server_socket.accept()
-
-print("Connection established with:", client_address)
-
-# Echo back received data
-while True:
-    data = client_socket.recv(1024)
-    if not data:
+    while True:
+        data = client_socket.recv(1024)
+        if not data:
             break
-            print("Received:", data.decode())
-            client_socket.sendall(data)
+        print("Received:", data.decode())
 
-            # Close the connection
-            client_socket.close()
+    print("Connection closed.")
+    client_socket.close()
+    server_socket.close()
+
+if __name__ == "__main__":
+    server()
