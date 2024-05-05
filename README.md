@@ -18,6 +18,8 @@ The syntax of the names of the branches will be your name and what you are worki
 
 `git checkout -b 'conner_crying'`
 
+> **Important:** Main is where our main product will be, only push to main when you have created a working tested code.
+
 ### Directories
 
 Let's try to keep our git as clean as possible so it is easy for everyone to navigate through it.
