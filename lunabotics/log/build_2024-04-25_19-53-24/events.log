@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.001640] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002201] (testing) JobQueued: {'identifier': 'testing', 'dependencies': OrderedDict()}
+[0.002293] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.062446] (testing) JobStarted: {'identifier': 'testing'}
+[0.099012] (-) TimerEvent: {}
+[0.117329] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.124257] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.128775] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib:/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1468'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install:/home/lunabotics/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/1441,unix/lunabotics-desktop:/tmp/.ICE-unix/1441'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b52ff8d4_fa1e_4b8e_aa3b_95c717621d4d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros:/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros:/home/lunabotics/lidar/install/rplidar_ros:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing:/opt/ros/humble')]), 'shell': False}
+[0.199223] (-) TimerEvent: {}
+[0.299983] (-) TimerEvent: {}
+[0.400690] (-) TimerEvent: {}
+[0.501434] (-) TimerEvent: {}
+[0.602180] (-) TimerEvent: {}
+[0.703047] (-) TimerEvent: {}
+[0.803763] (-) TimerEvent: {}
+[0.883221] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[0.903935] (-) TimerEvent: {}
+[1.004983] (-) TimerEvent: {}
+[1.023656] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[1.105141] (-) TimerEvent: {}
+[1.205810] (-) TimerEvent: {}
+[1.306455] (-) TimerEvent: {}
+[1.407197] (-) TimerEvent: {}
+[1.507929] (-) TimerEvent: {}
+[1.608654] (-) TimerEvent: {}
+[1.709343] (-) TimerEvent: {}
+[1.810094] (-) TimerEvent: {}
+[1.890564] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.910564] (-) TimerEvent: {}
+[2.011912] (-) TimerEvent: {}
+[2.112679] (-) TimerEvent: {}
+[2.143552] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[2.183827] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lunabotics'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib:/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lunabotics'), ('OLDPWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1468'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install:/home/lunabotics/lidar/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lunabotics'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lunabotics'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lunabotics-desktop:@/tmp/.ICE-unix/1441,unix/lunabotics-desktop:/tmp/.ICE-unix/1441'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b52ff8d4_fa1e_4b8e_aa3b_95c717621d4d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros:/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros:/home/lunabotics/lidar/install/rplidar_ros:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing:/opt/ros/humble')]), 'shell': False}
+[2.212883] (-) TimerEvent: {}
+[2.223557] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.229016] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.231883] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[2.239290] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[2.243981] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[2.244725] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[2.245314] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[2.245868] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[2.249993] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[2.250577] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[2.251325] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[2.251893] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[2.252295] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[2.253773] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[2.257295] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[2.258742] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/include/visibility.h\n'}
+[2.264658] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[2.266698] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[2.269408] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[2.270687] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[2.272521] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[2.274594] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[2.275988] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[2.277317] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[2.278513] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[2.279782] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[2.281078] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[2.282112] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[2.313081] (-) TimerEvent: {}
+[2.326529] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[2.329170] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[2.330544] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.332132] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.333442] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[2.334588] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[2.336000] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[2.344939] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.413259] (-) TimerEvent: {}
+[2.513996] (-) TimerEvent: {}
+[2.615178] (-) TimerEvent: {}
+[2.716377] (-) TimerEvent: {}
+[2.723102] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[2.816548] (-) TimerEvent: {}
+[2.917148] (-) TimerEvent: {}
+[3.018078] (-) TimerEvent: {}
+[3.118845] (-) TimerEvent: {}
+[3.219580] (-) TimerEvent: {}
+[3.320229] (-) TimerEvent: {}
+[3.420891] (-) TimerEvent: {}
+[3.521615] (-) TimerEvent: {}
+[3.622291] (-) TimerEvent: {}
+[3.722943] (-) TimerEvent: {}
+[3.823810] (-) TimerEvent: {}
+[3.924647] (-) TimerEvent: {}
+[4.025782] (-) TimerEvent: {}
+[4.126946] (-) TimerEvent: {}
+[4.202349] (testing) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/build', '--no-deps', 'symlink_data'], 'cwd': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lunabotics', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros/lib:/home/lunabotics/lidar/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lunabotics', 'OLDPWD': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1468', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install:/home/lunabotics/lidar/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lunabotics', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lunabotics', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lunabotics-desktop:@/tmp/.ICE-unix/1441,unix/lunabotics-desktop:/tmp/.ICE-unix/1441', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b52ff8d4_fa1e_4b8e_aa3b_95c717621d4d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros:/home/lunabotics/lidar/install/rplidar_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing/prefix_override:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing:/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/rplidar_ros:/home/lunabotics/lidar/install/rplidar_ros'}, 'shell': False}
+[4.227073] (-) TimerEvent: {}
+[4.327760] (-) TimerEvent: {}
+[4.428408] (-) TimerEvent: {}
+[4.529056] (-) TimerEvent: {}
+[4.629755] (-) TimerEvent: {}
+[4.730438] (-) TimerEvent: {}
+[4.831046] (-) TimerEvent: {}
+[4.931722] (-) TimerEvent: {}
+[5.032388] (-) TimerEvent: {}
+[5.133073] (-) TimerEvent: {}
+[5.233715] (-) TimerEvent: {}
+[5.334363] (-) TimerEvent: {}
+[5.435064] (-) TimerEvent: {}
+[5.535741] (-) TimerEvent: {}
+[5.636444] (-) TimerEvent: {}
+[5.726905] (testing) StdoutLine: {'line': b'running develop\n'}
+[5.736595] (-) TimerEvent: {}
+[5.837244] (-) TimerEvent: {}
+[5.937924] (-) TimerEvent: {}
+[6.038585] (-) TimerEvent: {}
+[6.139206] (-) TimerEvent: {}
+[6.239928] (-) TimerEvent: {}
+[6.340585] (-) TimerEvent: {}
+[6.441226] (-) TimerEvent: {}
+[6.541865] (-) TimerEvent: {}
+[6.642496] (-) TimerEvent: {}
+[6.743172] (-) TimerEvent: {}
+[6.843869] (-) TimerEvent: {}
+[6.847410] (testing) StdoutLine: {'line': b'running egg_info\n'}
+[6.848134] (testing) StdoutLine: {'line': b'writing testing.egg-info/PKG-INFO\n'}
+[6.849292] (testing) StdoutLine: {'line': b'writing dependency_links to testing.egg-info/dependency_links.txt\n'}
+[6.850046] (testing) StdoutLine: {'line': b'writing entry points to testing.egg-info/entry_points.txt\n'}
+[6.850842] (testing) StdoutLine: {'line': b'writing requirements to testing.egg-info/requires.txt\n'}
+[6.851625] (testing) StdoutLine: {'line': b'writing top-level names to testing.egg-info/top_level.txt\n'}
+[6.860663] (testing) StdoutLine: {'line': b"reading manifest file 'testing.egg-info/SOURCES.txt'\n"}
+[6.864207] (testing) StdoutLine: {'line': b"writing manifest file 'testing.egg-info/SOURCES.txt'\n"}
+[6.870099] (testing) StdoutLine: {'line': b'running build_ext\n'}
+[6.870859] (testing) StdoutLine: {'line': b'Creating /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/install/testing/lib/python3.10/site-packages/testing.egg-link (link to .)\n'}
+[6.874936] (testing) StdoutLine: {'line': b'\n'}
+[6.875749] (testing) StdoutLine: {'line': b'Installed /home/lunabotics/lunabotics2024/CSU-Lunabotics-2024/lunabotics/build/testing\n'}
+[6.876411] (testing) StdoutLine: {'line': b'running symlink_data\n'}
+[6.944183] (-) TimerEvent: {}
+[7.045347] (-) TimerEvent: {}
+[7.056499] (testing) CommandEnded: {'returncode': 0}
+[7.099312] (testing) JobEnded: {'identifier': 'testing', 'rc': 0}
+[7.102308] (-) EventReactorShutdown: {}
